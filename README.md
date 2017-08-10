@@ -44,7 +44,7 @@ If you want to have more allowances, call ecp.allow() more than once. <code>ecp.
 ### The receive-function
 The function you specified with the ecp.init command will receive one argument, a dictionary containing these properties.
 
-| propertie | description |
+| property | description |
 | --- | --- |
 | message | The message itself |
 | app | The origin script name of this message |
