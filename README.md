@@ -74,7 +74,7 @@ ecp.allow( "game app" );
 function onReceive(data) {
     if ( data.message == "honk on" ) {
         honk(data.ball, true); }            // the definition of this function is excluded from this example
-    elif ( data.message == "honk off" ) {
+    else if ( data.message == "honk off" ) {
         honk(data.ball, false); }           // same
     }
 
